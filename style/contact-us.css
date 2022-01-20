@@ -1,0 +1,159 @@
+@charset "utf-8";
+body {
+	background-color: #FBFBFB;
+	padding: 0;
+	margin: 0;
+	font-family: Outfit, 'sans serif';
+}
+h1 {
+	font-family: 'Fredoka One', 'sans serif';
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 8px;
+}
+header {
+	background-color: #A60002;
+	height: 125px;
+	padding: 0;
+	margin: 0;
+}
+.navbar {
+	text-align: center;
+}
+.nav-links {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	display: inline;
+}
+.nav-links a, .order-button {
+	font-weight: 600;
+	color: #ffffff;
+	margin: 0 45px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	bottom: 65px;
+	left: 30px;
+
+	transition: all 0.3s;
+}
+.nav-links a:hover {
+	color: #000000;
+}
+.order-button {
+	color: #000000;
+	background-color: #ffebd3;
+	font-family: Outfit, 'sans serif';
+	height: 55px;
+	padding: 10px 30px;
+	font-size: 22px;
+	border: none;
+	border-radius: 3px;
+	transition: all 0.3s;
+}
+.order-button:hover {
+	background-color: #8E1400;
+}
+.logo {
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+.form-img {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.form-img img {
+	width: 35%;
+	position: relative;
+	top: 50px;
+}
+.form h2 {
+	color: #A3070A;
+	font-size: 43px;
+	margin-bottom: 0;
+	text-align: center;
+}
+.form p {
+	font-size: 18px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+form {
+	padding-bottom: 70px;	
+}
+fieldset {
+	background-color: #FFCA84;
+	border-radius: 3px;
+	border: none;
+	width: 600px;
+	height: 435px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.name, .phone {
+	display: inline-block;
+	position: relative;
+	left: 25px;
+}
+.phone {
+	margin: 0 50px;
+}
+.email {
+	margin: 25px auto;
+	position: relative;
+	top: 15px;
+	left: 25px;
+	
+}
+.email input {
+	width: 80%;
+	margin: 0 auto;
+}
+label {
+	font-weight: 600;
+}
+input, textarea {
+	font-family: Outfit, 'sans serif';
+}
+
+textarea {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+.submit-btn {
+	border: none;
+	border-radius: 3px;
+	background-color: #C25450;
+	color: #FFFFFF;
+	font-family: Outfit, 'sans serif';
+	font-size: 17px;
+	padding: 5px 25px;
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+footer {
+	background-color: #E35658;
+	text-align: center;
+	height: 60px;
+}
+footer a {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0 50px;
+	position: relative;
+	text-decoration: none;
+	top: 20px;
+	transition: color 0.3s;
+}
+footer a:hover {
+	color: #FFFFFF;
+}

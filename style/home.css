@@ -1,0 +1,200 @@
+@charset "utf-8";
+body {
+	background-color: #FBFBFB;
+	padding: 0;
+	margin: 0;
+	font-family: Outfit, 'sans serif';
+}
+h1 {
+	font-family: 'Fredoka One', 'sans serif';
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 8px;
+}
+header {
+	background-color: #A60002;
+	height: 125px;
+	padding: 0;
+	margin: 0;
+}
+.navbar {
+	text-align: center;
+}
+.nav-links {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	display: inline;
+
+}
+.nav-links a, .order-button {
+	font-weight: 600;
+	color: #ffffff;
+	margin: 0 45px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	bottom: 65px;
+	left: 30px;
+
+	transition: all 0.3s;
+}
+.nav-links a:hover {
+	color: #000000;
+}
+.order-button {
+	color: #000000;
+	background-color: #ffebd3;
+	font-family: Outfit, 'sans serif';
+	height: 55px;
+	padding: 10px 30px;
+	font-size: 22px;
+	border: none;
+	border-radius: 3px;
+	transition: all 0.3s;
+}
+.order-button:hover {
+	background-color: #8E1400;
+}
+.logo {
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+.banner-image {
+	background-image: url("../images/menu/menu-full.jpg");
+	background-position: center;	
+	background-repeat: none;
+	background-size: cover;
+	height: 500px;
+}
+/*.container img {
+	width: 100%;
+	height: 15%;
+}
+*/
+.intro {
+	background-color: #FFD8D9;
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 75%;
+	height: 450px;
+	padding: 40px 0;
+	margin: 85px auto;
+	border-radius: 5px;
+}
+.item {
+	padding: 0 50px;
+}
+.item img {
+	width: 450px;
+	margin: 0 25px;
+	filter: drop-shadow(3px 5px 5px #a8a8a8);
+
+}
+.item h2 {
+	color: #A60002;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	right: 30px;
+	text-align: center;
+}
+.item p {
+	font-size: 23px;
+	position: relative;
+	right: 30px;
+}
+.item h2, .item p {
+	margin: 45px 0;
+}
+.wings {
+	background-image: url("../images/menu/food-combo.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 600px;
+}
+.options {
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+.options h2 {
+	color: #A60002;
+	font-size: 45px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.buttons {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 100px;
+	width: 50%;
+	margin: 75px auto;
+	
+}
+.buttons a {
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-shadow: 3px 5px 5px rgba(0,0,0, 0.15);
+	text-decoration: none;
+	z-index: 999;
+	position: relative;
+	bottom: 150px;
+	left: 10%;
+	transition: 0.2s;
+}
+.buttons a:hover {
+	color: #A60002;
+}
+.buttons img {
+	width: 250px;
+	height: 250px;
+	border-radius: 4px;
+	opacity: 0.65;
+
+}
+.color-container-left {
+	background-color: rgba(228, 116, 118, 1);
+	border-radius: 4px;
+	width: 250px;
+	height: 250px;
+}
+.color-container-right {
+	background-color: rgba(228, 116, 118, 1);
+	border-radius: 4px;
+	width: 250px;
+	height: 250px;
+}
+.buttons a:hover {
+	
+}
+footer {
+	background-color: #E35658;
+	text-align: center;
+	height: 60px;
+}
+footer a {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0 50px;
+	position: relative;
+	text-decoration: none;
+	top: 20px;
+	transition: color 0.3s;
+	
+}
+footer a:hover {
+	color: #FFFFFF;
+}
